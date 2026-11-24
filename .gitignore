@@ -1,0 +1,23 @@
+# ===== 安全：日志解密私钥，绝不提交到公开仓库 =====
+tools/maintenance-private.xml
+
+# ===== 构建产物（可在 GitHub Releases 单独发布） =====
+dist/*.exe
+*.tmp
+
+# ===== 问题反馈截图（可能含真实业务数据） =====
+feedback/
+
+# ===== 本地验证输出 =====
+analysis/.qa-path
+analysis/qa-*/
+*.lplog
+
+# ===== 系统 / 编辑器临时文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+.vs/
+.vscode/

@@ -1,0 +1,20 @@
+DLibXls.dll  SHA256 7720971b9f2197f66a6bd8c64536f95f04bd52a9177b8ee76a1225b7d37fb52a
+VA 0x10002ecb   call dword ptr [0x10005124]    libxls!xls_close_WB
+VA 0x10002f46   call dword ptr [0x10005130]    libxls!xls_open
+VA 0x10002fb4   call dword ptr [0x10005128]    libxls!xls_getWorkSheet
+VA 0x10003002   call dword ptr [0x1000512c]    libxls!xls_parseWorkSheet
+VA 0x100030eb   call dword ptr [0x10005124]    libxls!xls_close_WB
+VA 0x1000424b   call dword ptr [0x10005120]    libxls!xls_close_WS
+DLabel.exe  SHA256 149ecf769724c5e181d8137d7e067c4483375fc25e4f18aae347a6668803fb1e
+file offset 0x007e277c   GraphicsScene
+file offset 0x007d8a00   ItemPropertyBrowser
+file offset 0x007c5ef0   openLabelSlot
+file offset 0x007e5faa   chooseLocalExcelFile
+file offset 0x007e6132   loadExcelFile
+file offset 0x007e6192   updatePreviewExcelData
+file offset 0x007e61e2   confirmLoadExcelFile
+file offset 0x007f9197   batchprintSelected
+file offset 0x0080290d   addVariablePrintPage
+DatabaseManager.dll  SHA256 b9d63304d4a4d46c9419b2573e76694fced0e17cd5479f1b84d09ae73aa27b9f
+file offset 0x00079984   ExcelParser
+file offset 0x0007fd44   workbookPr
